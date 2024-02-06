@@ -1,0 +1,15 @@
+specVersion: 0.36.0
+name: hello
+runtime: go
+created: 2024-01-19T15:34:54.486116773+09:00
+build:
+  git:
+    # required, git repository with the function source code
+    url: https://github.com/ntels-dskim/knative-hello.git
+    # optional, git revision to be used (branch, tag, commit)
+    revision: main
+    # optional, needed only if the function is not located in the repository root folder
+    # contextDir: myfunction
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
